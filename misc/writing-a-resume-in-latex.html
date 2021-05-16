@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta name="description" content="Writing a résumé in LaTeX is initially painful, but rewarding" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;user-scalable=no;target-densitydpi=device-dpi">
+    <title>Writing a Résumé in LaTeX - Michael Lustfield</title>
+    <link rel="stylesheet" type="text/css" href="https://michael.lustfield.net/theme/css/combined.css" />
+    <!--[if lt IE 9]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script><script src="https://michael.lustfield.net/theme/js/html5shiv.js"></script><![endif]-->
+    <link rel="shortcut icon" type="image/png" href="https://michael.lustfield.net/theme/img/favicon.ico" />
+    <link rel="alternate" type="application/atom+xml" title="Michael Lustfield - Atom Feed" href="https://michael.lustfield.net/" /> 
+    <link rel ="alternate" type="application/rss+xml" title="Michael Lustfield - RSS Feed" href="https://michael.lustfield.net/rss.xml" />
+    <link rel="dns-prefetch" href="//www.google-analytics.com/">
+
+    <meta name="author"   content="michael" />
+    <meta name="keywords" content="latex, résumé, short" />
+  </head>
+  <body>
+    <div id="page">
+      
+      <div id="page-head">
+        <a class="site-heading" href="https://michael.lustfield.net/">Michael Lustfield</a>
+      </div>
+     
+      <div id="page-body" class="grid-container grid-parent">
+      <div id="page-side" class="grid-15 tablet-grid-15 mobile-grid-100">          <ul id="nav-table">
+          <li class="side-navigation-li">
+          <nav>
+            <h3>Pages</h3>
+            <ul>
+              <li><a href="https://michael.lustfield.net">Home</a></li>
+              <!--<li><a href="https://michael.lustfield.net/categories">Categories</a></li>-->
+              <!--<li><a href="https://michael.lustfield.net/archives">Archives</a></li>-->
+              <li><a href="https://michael.lustfield.net/tags">Tags</a></li>
+              <li><a href="https://michael.lustfield.net/pages/about-me">About Me</a></li>
+              <li><a href="https://michael.lustfield.net/pages/contact-me">Contact Me</a></li>
+            </ul>
+          </nav>
+        </li>
+
+          <li class="side-navigation-li">
+          <nav>
+            <h3>Categories</h3>
+            <ul>
+              <li><a href="https://michael.lustfield.net/category/linux">Linux</a></li>
+              <li class="active"><a href="https://michael.lustfield.net/category/misc">Misc</a></li>
+              <li><a href="https://michael.lustfield.net/category/nginx">Nginx</a></li>
+              <li><a href="https://michael.lustfield.net/category/rambling">Rambling</a></li>
+            </ul>
+          </nav>
+          </li>
+          <li class="side-navigation-li">
+          <nav>
+            <h3>Feeds</h3>
+            <ul>
+              <li><a href="https://michael.lustfield.net/rss.xml">RSS Feed</a></li>
+              <li><a href="https://michael.lustfield.net/misc/rss.xml">Misc (rss)</a></li>
+            </ul>
+          </nav>
+          </li>
+          <li class="side-navigation-li">
+          <nav>
+            <h3>Search</h3>
+	    <form action="https://www.google.com/search" method="get" name="searchform" />
+              <input name="sitesearch" type="hidden" value="michael.lustfield.net" />
+              <input autocomplete="on" size="12" maxlength="120" name="q" required="required"  type="text" />
+              <input name="q" type="hidden" value="-tag -category -files" />
+	      <br /><button class="button" type="submit">Search</button>
+            </form>
+          </nav>
+          </li>
+          </ul></div> <!-- /#page-side -->
+        <div id="page-content" class="grid-80 tablet-grid-80 mobile-grid-100 right">
+        <article class="post" id="page-main" role="main">
+      
+     
+      <header class="post-header">
+        <h1><a rel="bookmark" href="https://michael.lustfield.net/misc/writing-a-resume-in-latex" title="Permalink «Writing a Résumé in LaTeX»">Writing a Résumé in LaTeX</a></h1>
+        <div class="meta">
+<!-- includes/article_meta.html -->
+            <!--
+            On <time datetime="2021-02-11T18:00:00-06:00">Thu 11 February 2021</time>
+            in «<a href="https://michael.lustfield.net/category/misc">misc</a>» 
+            by <a href="https://michael.lustfield.net/author/michael.html">michael</a>              <br />Tags:              <a rel="tag" href="https://michael.lustfield.net/tag/latex.html">latex</a>,               <a rel="tag" href="https://michael.lustfield.net/tag/resume.html">résumé</a>,               <a rel="tag" href="https://michael.lustfield.net/tag/short.html">short</a>-->        </div>
+      </header>
+        <p>Way back in my college days, I was trying to write the first version of my
+résumé. As a pedantic IT guy, I wanted to get <strong>everything</strong> perfect so that I
+could stand out despite having very little practical experience.</p>
+<p>Trying to write my résumé in OpenOffice--yes, I'm that old--proved to be quite
+difficult. Attempting to select text sometimes resulted in selecting the
+background which made it impossible to select text; trying to highlight text
+would sometimes result it that text disappearing; moving one little object could
+sometimes destroy formatting and alignment of everything else; maintaining
+consistent text formatting was challenging; so many other issues...</p>
+<p>After many hours of headaches, it became obvious that the best course of action
+was to pick up LaTeX and figure out that screwy animal. I found many
+&quot;resume.cls&quot; files out there to begin copying from, but they were all limited or
+exceptionally frustrating to work with and required getting to know LaTeX in a
+bit of depth. Many of them had some strange expectations which made sense only
+to the original author.</p>
+<p>So... if learning LaTeX is required, it made sense that my end goal would
+become, &quot;spend a million hours on my own resume.cls that will serve me well for
+many years to come. Which, of course, is what this post is here to share.</p>
+<p>Here it is... my <a class="reference external" href="/files/uploads/resume.cls">resume.cls</a>.</p>
+<div class="section" id="resume">
+<h2>Résumé</h2>
+<p>With this class file, getting started on your own résumé should (hopefully) be
+quite trivial. It's as simple as:</p>
+<div class="highlight"><pre><span></span><span class="c">%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="c">%  First Last - Résumé  %</span>
+<span class="c">%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+
+<span class="k">\documentclass</span><span class="na">[margin,line]</span><span class="nb">{</span>resume<span class="nb">}</span>
+<span class="k">\usepackage</span><span class="nb">{</span>hyperref<span class="nb">}</span>
+
+<span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+
+  <span class="c">%%%%%%%%%%%</span>
+  <span class="c">% Heading %</span>
+  <span class="c">%%%%%%%%%%%</span>
+
+  <span class="k">\name</span><span class="nb">{</span>First Last<span class="nb">}</span>
+  <span class="k">\address</span><span class="nb">{</span>
+    [details redacted -- web copy]
+    <span class="c">%123 E 1st St ---</span>
+    <span class="c">%City, St 12345 ---</span>
+    <span class="c">%(123) 123-1234 ---</span>
+    <span class="c">%user@domain.tld</span>
+  <span class="nb">}</span>
+
+  <span class="k">\begin</span><span class="nb">{</span>resume<span class="nb">}</span>
+
+    <span class="c">%%%%%%%%%%%%%%%%%%%%</span>
+    <span class="c">% Career Objective %</span>
+    <span class="c">%%%%%%%%%%%%%%%%%%%%</span>
+
+    <span class="k">\section</span><span class="nb">{</span>Summary<span class="nb">}</span>
+
+      <span class="k">\heading</span><span class="nb">{</span>Information Technology, <span class="nb">}{</span>DevOps Engineer<span class="nb">}{}</span>
+      <span class="k">\begin</span><span class="nb">{</span>resume<span class="nb">_</span>list<span class="nb">}</span>
+        <span class="k">\item</span><span class="na">[]</span> Driven IT nerd with a passion for challenging problems; experienced with:
+        <span class="k">\item</span><span class="na">[]</span> - Release management, Cloud Technologies, Automation, Release  Engineering
+      <span class="k">\end</span><span class="nb">{</span>resume<span class="nb">_</span>list<span class="nb">}</span>
+
+    <span class="c">%%%%%%%%%%%%%%</span>
+    <span class="c">% Experience %</span>
+    <span class="c">%%%%%%%%%%%%%%</span>
+
+    <span class="k">\section</span><span class="nb">{</span>Career <span class="k">\\</span> Highlights<span class="nb">}</span>
+
+      <span class="k">\heading</span><span class="nb">{</span>Company Name, <span class="nb">}{</span>San Jose, CA<span class="nb">}{</span>July 2010 -- Present<span class="nb">}</span>
+      [Senior Systems Engineer]
+      <span class="k">\begin</span><span class="nb">{</span>resume<span class="nb">_</span>list<span class="nb">}</span>
+        <span class="k">\item</span> foo
+        <span class="k">\item</span> bar
+      <span class="k">\end</span><span class="nb">{</span>resume<span class="nb">_</span>list<span class="nb">}</span>
+
+    <span class="c">%%%%%%%%%%%%%</span>
+    <span class="c">% Education %</span>
+    <span class="c">%%%%%%%%%%%%%</span>
+
+    <span class="k">\section</span><span class="nb">{</span>Education<span class="nb">}</span>
+
+      <span class="k">\heading</span><span class="nb">{</span>Dakota State University, <span class="nb">}{</span>Madison, SD<span class="nb">}{</span>September 2006 -- December 2010<span class="nb">}</span>
+      <span class="k">\begin</span><span class="nb">{</span>resume<span class="nb">_</span>list<span class="nb">}</span>
+        <span class="k">\item</span><span class="na">[]</span> B.S. in Business and Computer Information Systems
+        <span class="k">\item</span><span class="na">[]</span> Specialization: Systems Development
+        <span class="k">\item</span><span class="na">[]</span> Minors: Networking; Network Security
+      <span class="k">\end</span><span class="nb">{</span>resume<span class="nb">_</span>list<span class="nb">}</span>
+
+    <span class="c">%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+    <span class="c">% Professional Development %</span>
+    <span class="c">%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+
+    <span class="k">\section</span><span class="nb">{</span>Professional <span class="k">\\</span> Development<span class="nb">}</span>
+
+      Certifications<span class="k">\hfill</span> Record ID
+      <span class="k">\begin</span><span class="nb">{</span>resume<span class="nb">_</span>list<span class="nb">}</span>
+        <span class="k">\item</span> <span class="k">\textbf</span><span class="nb">{</span>SSCE<span class="nb">}</span> (SaltStack Certified Engineer) [2015]<span class="k">\hfill</span>
+          <span class="k">\href</span><span class="nb">{</span>https://ssc.saltstack.com/<span class="nb">}{</span>710C6EC7<span class="nb">}</span>
+        <span class="k">\item</span> <span class="k">\textbf</span><span class="nb">{</span>GCP - Professional Cloud Architect<span class="nb">}</span> (Google Cloud Platform) [2019 -- 2021]<span class="k">\hfill</span>
+          <span class="k">\href</span><span class="nb">{</span>https://www.credential.net/k315bwjm<span class="nb">}{</span>xuB2dH<span class="nb">}</span>
+      <span class="k">\end</span><span class="nb">{</span>resume<span class="nb">_</span>list<span class="nb">}</span>
+  <span class="k">\end</span><span class="nb">{</span>resume<span class="nb">}</span>
+
+<span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
+</pre></div>
+<p>Building a PDF from this is as simple as (on Debian-based systems) installing
+texlive-latex-base and running <tt class="docutils literal">pdflatex ./resume.tex</tt>.</p>
+</div>
+<div class="section" id="references">
+<h2>References</h2>
+<p>This same <a class="reference external" href="/files/uploads/resume.cls">resume.cls</a> can be used for a references list.</p>
+<div class="highlight"><pre><span></span><span class="c">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="c">%  First Last - References  %</span>
+<span class="c">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+
+<span class="k">\documentclass</span><span class="na">[margin,line]</span><span class="nb">{</span>resume<span class="nb">}</span>
+
+<span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+
+  <span class="c">%%%%%%%%%%%</span>
+  <span class="c">% Heading %</span>
+  <span class="c">%%%%%%%%%%%</span>
+
+  <span class="k">\name</span><span class="nb">{</span>First Last<span class="nb">}</span>
+  <span class="k">\address</span><span class="nb">{</span>
+    123 E 1st St ---
+    City, St 12345 ---
+    (123) 123-1234 ---
+    user@domain.tld
+  <span class="nb">}</span>
+
+  <span class="k">\begin</span><span class="nb">{</span>references<span class="nb">}</span>
+
+    <span class="c">%%%%%%%%%%%%%%</span>
+    <span class="c">% References %</span>
+    <span class="c">%%%%%%%%%%%%%%</span>
+
+    <span class="k">\begin</span><span class="nb">{</span>reference<span class="nb">}</span>
+      <span class="k">\person</span><span class="nb">{</span>Buddy One<span class="nb">}</span>
+      <span class="k">\jobtitle</span><span class="nb">{</span>Network and Data Communications Consultant<span class="nb">}</span>
+      <span class="k">\business</span><span class="nb">{</span>Engineering Firm<span class="nb">}</span>
+      <span class="k">\street</span><span class="nb">{</span>122 8th St<span class="nb">}</span>
+      <span class="k">\citystate</span><span class="nb">{</span>City, ST 12345<span class="nb">}</span>
+      <span class="k">\phone</span><span class="nb">{</span>(123) 123-1255<span class="nb">}</span>
+      <span class="k">\email</span><span class="nb">{</span>buddy@domain.tld<span class="nb">}</span>
+    <span class="k">\end</span><span class="nb">{</span>reference<span class="nb">}</span>
+
+  <span class="k">\end</span><span class="nb">{</span>references<span class="nb">}</span>
+
+<span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
+</pre></div>
+<p>Please remember that you should <em>not</em> offer a references list unless requested,
+and only after you interviewed your potential employer at least once. There is
+no reason to share it until you're sure you want to work for the company.</p>
+</div>
+<div class="section" id="closing-thought">
+<h2>Closing Thought</h2>
+<p>Good luck fellow job seekers; I hope this can help you find your next employer!</p>
+</div>
+
+        <footer class="post-footer">
+        <div class="meta">
+            Posted in «<a href="https://michael.lustfield.net/category/misc">misc</a>» 
+            <!--by <a href="https://michael.lustfield.net/author/michael.html">michael</a>--><br />
+            Tags:  #<a href="https://michael.lustfield.net/tag/latex.html">latex</a> #<a href="https://michael.lustfield.net/tag/resume.html">résumé</a> #<a href="https://michael.lustfield.net/tag/short.html">short</a>        </div>
+      </footer>
+      
+      
+      </article> <!-- /#page-main -->
+</div>
+        
+      </div>  <!-- /#page-body -->
+
+      <div id="page-foot">
+        <p>MTecknology - <a href="/pages/keeping-it-dry">Keeping IT DRY</a><br />[<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">license</a>]</p>
+      </div>
+    </div> <!-- /#page -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=252297868"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '252297868');
+    </script>
+  </body>
+</html>
