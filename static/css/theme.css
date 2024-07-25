@@ -1,0 +1,130 @@
+/**
+ * Original File Content
+ **/
+
+/* light mode */
+.light > *{
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+}
+
+/* dark mode */
+.dark {
+    --background-color: var(--background-color-dark) !important;
+    --secondary-background-color: var(--secondary-background-color-dark) !important;
+    --text-color: var(--text-color-dark) !important;
+    --text-secondary-color: var(--text-secondary-color-dark) !important;
+    --primary-color: var(--primary-color-dark);
+    --secondary-color: var(--secondary-color-dark);
+}
+
+.text-secondary {
+    color: var(--text-secondary-color) !important;
+}
+
+#theme-toggle:focus {
+    outline: 0;
+}
+
+#theme-toggle svg {
+    height: 18px;
+}
+
+button#theme-toggle {
+    border: none;
+    font-size: 26px;
+    margin: auto 4px;
+}
+
+body.dark #moon {
+    vertical-align: middle;
+    display: none;
+}
+
+body:not(.dark) #sun {
+    display: none;
+}
+
+body *::selection {
+    color: var(--text-color) !important;
+    background-color: var(--primary-color) !important;
+}
+
+/**
+ * General Tweaks
+ **/
+
+a {
+  color: var(--secondary-background-color) !important;
+}
+
+.card-title {
+  color: var(--secondary-background-color) !important;
+}
+
+header .navbar .navbar-nav a {
+  background-color: var(--primary-color);
+  color: var(--secondary-color) !important;
+  font-weight: bold;
+  font-size: large;
+  border-radius: 5px;
+  border: none;
+  transition: background-color .3s;
+  margin-left: 1em;
+}
+
+header .navbar .navbar-nav a:hover {
+  background-color: var(--secondary-background-color) !important;
+  color: var(--secondary-color) !important;
+}
+
+#hero {
+  min-height: auto !important; /* override index.css */
+}
+
+#hero h2 {
+  padding-left: 1em;
+}
+
+#hero h3 {
+  padding-left: 2.5em;
+}
+
+.card-img-top {
+  padding: 2.5em 2.5em 0 2.5em;
+}
+
+.card-body {
+  padding: 2rem 2rem;
+  line-height: 1.7em;
+  font-size: 17px;
+}
+
+#achievements .card {
+  cursor: auto !important; /* override: index.css */
+}
+
+#projects .card:hover {
+  transform: none !important; /* override: project.css */
+}
+
+#projects .card:hover .card-img-top {
+  transform: scale(1.05) !important; /* override: project.css */
+}
+
+#profileHeader img {
+  width: 100px !important; /* override: html */
+  height: 100px !important; /* override: html */
+  vertical-align: middle !important; /* override: _utilities.scss */
+  margin-right: 20px;
+}
+
+.navbar-brand {
+  opacity: 1;
+}
+
+@media (min-width: 992px) {
+  .col-lg-5 {
+    width: 50% !important; /* override: _grid.html */
+  }
+}

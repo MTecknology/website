@@ -1,0 +1,223 @@
+baseURL: https://michael.lustfield.net/
+title: Michael Lustfield
+
+languageCode: en
+theme: profile
+#googleAnalytics: 252297868
+disablePathToLower: true
+pygmentsCodeFences: true
+pygmentsStyle: xcode
+
+params:
+  title: MTeck
+  description: DevOps / SRE / Linux Engineer
+
+  footer:
+    socialNetworks:
+      github: https://github.com/MTecknology
+      linkedin: https://linkedin.com/in/mikelustfield
+
+  favicon: /self/mteck.webp
+  navbar:
+    brandLogo: /self/mteck.webp
+    stickyNavBar:
+      enable : true
+    searchPlaceholder: Search ...
+    disableSearch: true
+
+  animate: false
+  theme:
+    disableThemeToggle: true
+    defaultTheme: light
+  listPages:
+    disableFeaturedImage: false
+
+  color:
+    #textColor: "#343a40"
+    secondaryTextColor: "#464d53"
+    backgroundColor: "#f3f4f4"
+    #secondaryBackgroundColor: "#64ffda1a"
+    secondaryBackgroundColor: "#508402"
+    primaryColor: "#0d6180"
+    #secondaryColor: "#f8f9fa"
+    #darkmode:
+    #  textColor: "#e4e6eb"
+    #  secondaryTextColor: "#b0b3b8"
+    #  backgroundColor: "#18191a"
+    #  secondaryBackgroundColor: "#212529"
+    #  primaryColor: "#ffffff"
+    #  secondaryColor: "#212529"
+
+  ##
+  # Front Page Content
+  ##
+
+  hero:
+    enable: true
+    intro: You have found
+    title: Michael Lustfield
+    subtitle: (MTecknology)
+    image: /self/spe.webp
+    imageThumb: /self/spe_thumb.webp
+
+  education:
+    enable: true
+    title: About Me
+    items:
+      - content: |
+          I am an IT architect with a focus on Linux, automation, and security.
+
+          This career path truly started back in (US) 11th-grade when the IT
+          coordinator handed me an Ubuntu CD, which started me down a long and
+          interesting path of ups and downs, starting with ndiswrapper. While
+          attending college, I found myself digging into both web debuggers,
+          strace, and other diagnostic utilities in order to troubleshoot any
+          problem, no matter how deep it went.
+
+          My first introduction into enterprise environments was a wild first
+          week; I was even pulled out of orientation in order to prevent a mail
+          service from running out of capacity, which would have happened that
+          evening. If not for some extremely well-written documentation and
+          other blog posts, that situation could have been catostrophically
+          worse.
+
+          After settling into the role and finding the credentials that were left
+          behind--for me, I began learning what it meant to be the only Linux guy
+          in charge of 500+ Linux/UNIX servers spread across the entire country,
+          in addition to the applications running on each. This experience prompted
+          me to be an adopter of configuration management (automation) **very**
+          early in my career; this experience also taught me how critically-important
+          quality documentation can be ... and to take time to read it.
+
+          This automation was not able to be easily tested at work due to lack
+          of any equivalent test environment, which prompted me to repurpose a
+          desktop at home and begin the pursuit of a full-fledged network that
+          included every best practice that I could research. This gave me an
+          amazing opportunity to break down work problems, learn about the
+          underlying technology, and investigate long enough to determine a root
+          cause and provide a permanent solution to recurring issues.
+
+          When not focused on work activities, I am often spending time contributing
+          to [open source projects](/#projects), with a focus on bug fixes and
+          quality-of-life improvements.
+
+          <h5><a href="/self/resume.pdf">
+          <img src="/misc/pdf.svg" alt="PDF" width="30px">&nbsp; My Resume</a></h5>
+
+  projects:
+    enable: true
+    title: Open Source
+    items:
+
+      - title: Debian Linux
+        content: Maintained software packages in the archive, participated in various Security & QA teams, and sponsored packages on behalf of prospective Debian Devs
+        image: /front/debian.webp
+        featured:
+          name: Debian QA
+          link: https://qa.debian.org/developer.php?login=mtecknology%40debian.org
+        badges:
+          - active
+
+      - title: SaltStack
+        content: Learned python in order to contribute new features and resolve complex issues, and helped users find simple solutions to complex challenges via IRC
+        image: /front/saltstack.webp
+        featured:
+          name: Upstream Patches
+          link: https://github.com/saltstack/salt/pulls?q=is%3Apr+is%3Aclosed+author%3Amtecknology
+        badges:
+          - emeritus
+
+      - title: Ubuntu Linux
+        content: Created Drupal modules and themes for community websites after establishing brand guidelines with the Ubuntu Web team and peer-reviewed News content
+        image: /front/ubuntu.webp
+        featured:
+          name: Ubuntu-Drupal
+          link: https://www.drupal.org/project/ubuntu_drupal
+        badges:
+          - emeritus
+
+      - title: Nginx
+        content: Coordinated security updates for Ubuntu and Debian, and maintained the IRC channel that temporarily existed as the primary support platform
+        image: /front/nginx.webp
+        featured:
+          name: Access Log Patch
+          link: https://nginx.org/en/CHANGES-1.0
+        badges:
+          - emeritus
+
+      - title: Gitea
+        content: Provided patches to improve documentation, repaired numerous license violations, and organized project assets in order to prevent regressions
+        image: /front/gitea.webp
+        featured:
+          name: Vendor Cleanup
+          link: https://github.com/go-gitea/gitea/pull/2383/files
+        badges:
+          - emeritus
+
+      - title: Recovery Source
+        content: Created a freely-hosted turn-key website solution for 12-step groups, wrote a handbook to cover the basics, and created an index of group listings
+        image: /front/12step.webp
+        featured:
+          name: Handbook
+          link: https://handbook.recoverysource.net/
+        badges:
+          - active
+
+  achievements:
+    enable: true
+    title: Mini Projects
+    items:
+
+      - title: Home Lab
+        content: My own enterprise-style infrastructure, designed to learn best practices and investigate solutions to real issues
+        url: /home-lab
+
+      - title: D42-Cli
+        content: Provides a flexible command line interface for Device42, using a module approach similar to SaltStack execution modules
+        url: https://github.com/MTecknology/d42-cli
+
+      - title: Script Helpers
+        content: Library for POSIX-compliant functions designed to safely support legacy servers that cannot tolerate down time
+        url: https://github.com/MTecknology/script-helpers
+
+      - title: Static Swagger-UI
+        content: Builds a read-only web page similar to Swagger-UI providing instant response time, using 1k fewer javascript libraries
+        url: https://github.com/MTecknology/static_swagger-ui
+
+      - title: Pelican Search
+        content: Adds lightning-fast searching to otherwise-static pelican websites using a server running sphinxsearch and bottle
+        url: https://github.com/MTecknology/pelican-search
+
+      - title: Debian SSO
+        content: Plugin for LemonLDAP-NG (SSO) that added features needed to support specific needs of the Debian project
+        url: https://github.com/MTecknology/debian-sso
+
+      - title: TDC
+        content: Tiny and lightweight clock designed to fit docks and system trays of minimalist window managers like openbox
+        url: https://tracker.debian.org/pkg/tdc
+
+      - title: LaTeX CV Template
+        content: Custom style for LaTeX to simplify building resumes and CVs that are optimized for ATS and easy maintain
+        url: https://www.overleaf.com/latex/templates/mtecks-resume/fzgztpkgngjc
+
+      - title: SaltStack Corporate Formula
+        content: Comprehensive template for corporations deploying SaltStack with proven record supporting globally distributed teams
+        url: https://github.com/MTecknology/homedata/tree/master/network/_legacy/salt/corporate-formula
+
+      - title: CIS Benchmark Tests
+        content: Implements CIS Level-2 benchmarks as pytest units
+        content: Provides automated testing and compliance reports covering benchmarks from Center for Internet Security
+        url: https://github.com/MTecknology/teckhost/tree/master/test/compliance
+
+      - title: DFSG Review
+        content: An application and framework that supports collaborative review of software packages within the debian archive
+        url: https://github.com/MTecknology/dfsg-review
+
+      - title: 100-Bytes
+        content: This was my attempt to build the best solution to a fun brain teaser presented to a friend during their interview
+        url: https://github.com/MTecknology/homedata/tree/master/projects/.archive/100bytes
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

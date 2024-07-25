@@ -1,6 +1,7 @@
-cache/*
-output/*
-*.pyc
+# hugo
+.hugo_build.lock
+/resources
+site
 
 # local-only
 _vomit/*
