@@ -6,8 +6,8 @@ tag: vmware
 ---
 
 This post has to come with the disclaimer that 99.97% of ESXi deployments have
-*NO* use for anything this complicated. For that 0.03% of us, ESXi can be one
-heck of a deployment nightmare. It doesn't have to be, though.
+*NO* use for anything this complicated. For that 0.03% of edge cases, ESXi can
+be one heck of a deployment nightmare. It doesn't have to be, though.
 <!--more-->
 
 Background: The Situation

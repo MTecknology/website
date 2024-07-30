@@ -7,10 +7,11 @@ tag: latex, résumé, short
 
 Way back in my college days, I was trying to write the first version of my
 résumé. As a pedantic IT guy, I wanted to get **everything** perfect so that I
-could stand out despite having very little practical experience.
+could stand out despite having very little practical experience, but trying to
+make even small edits in OpenOffice proved to be quite difficult.
+<!--more-->
 
-Trying to write my résumé in OpenOffice proved to be quite
-difficult. Attempting to select text sometimes resulted in selecting the
+Attempting to select text sometimes resulted in selecting the
 background which made it impossible to select text; trying to highlight text
 would sometimes result it that text disappearing; moving one little object could
 sometimes destroy formatting and alignment of everything else; maintaining
@@ -23,11 +24,49 @@ exceptionally frustrating to work with and required getting to know LaTeX in a
 bit of depth. Many of them had some strange expectations which made sense only
 to the original author.
 
-With all that learning in my future, it made sense to start from scratch while
-combining best practices that have been learned throughout my career.
+LaTeX
+-----
+
+In many word processing documents, changes are made using menus and buttons and
+then show up in real time. These are known as WYSIWYG editors, meaning What You
+See Is What You Get.
+
+Typesetting, on the other hand, uses plain text in order to define the elements
+on a document and how they should be displayed.
+
+The most simple example of a ``.tex`` document is:
+```tex
+\documentclass{article}
+
+\begin{document}
+Hello, World!
+\end{document}
+```
+
+This generats a document with the "``Hello, World!``" in the top-left:
+```txt
+Hello, World!
+
+
+
+ 
+```
+
+If Hello should be italic and World should be bold, but other characters
+should be normal, the document becomes:
+```tex
+\documentclass{article}
+
+\begin{document}
+\textit{Hello}, \textbf{World}!
+\end{document}
+```
 
 The Style
 ---------
+
+With all this learning in my future, it made sense to start from scratch while
+combining best practices that have been learned throughout my career.
 
 The result of this effort is [mteck.sty](/misc/mteck.sty), which can be
 stored alongside a ``.tex`` file and imported using ``\usepackage{mteck}``.

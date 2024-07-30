@@ -5,11 +5,10 @@ date: 2010-07-17T22:55:00
 tag: kiss
 ---
 
-Lately I've been cumulating a very large list of things I need to do.
-It's been getting harder and harder to keep track of what I need to do.
+Lately I've been accumulating a very large list of things I need to do.
 If I make a nice simple text file and a command to open up vim with my
 notes then I wind up adding notes but never checking them. That helps
-but it's not enough. There's a lot of really heavy note taking options
+but it's not enough.<!--more--> There's a lot of really heavy note taking options
 out there. You could make your home page go to Google Notebook. That's
 definitely not light weight.
 

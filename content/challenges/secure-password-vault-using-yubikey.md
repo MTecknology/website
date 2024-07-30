@@ -7,7 +7,7 @@ tag: linux, security
 
 Up until recently, my passwords were stored in a rather precarious manner. For
 my birthday, I decided it would be a nice gift to myself to perform a complete
-password refresh. This involved taking inventory of every password there was
+password refresh.<!--more--> This involved taking inventory of every password there was
 any record or memory of and resetting it to unique and cryptographically random
 password of random length--between ~25 and ~200 characters long. Now I have
 reason to keep these passwords secure!

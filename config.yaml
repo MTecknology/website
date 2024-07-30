@@ -67,7 +67,7 @@ params:
       - content: |
           I am an IT architect with a focus on Linux, automation, and security.
 
-          This career path truly started back in (US) 11th-grade when the IT
+          This career path truly started back in late high school when the IT
           coordinator handed me an Ubuntu CD, which started me down a long and
           interesting path of ups and downs, starting with ndiswrapper. While
           attending college, I found myself digging into both web debuggers,
@@ -79,27 +79,27 @@ params:
           service from running out of capacity, which would have happened that
           evening. If not for some extremely well-written documentation and
           other blog posts, that situation could have been catostrophically
-          worse.
+          worse. This highlighted the importance of quality documentation and
+          the necessity of taking the time to review it before taking action.
 
           After settling into the role and finding the credentials that were left
-          behind--for me, I began learning what it meant to be the only Linux guy
-          in charge of 500+ Linux/UNIX servers spread across the entire country,
-          in addition to the applications running on each. This experience prompted
-          me to be an adopter of configuration management (automation) **very**
-          early in my career; this experience also taught me how critically-important
-          quality documentation can be ... and to take time to read it.
+          behind, I began to understand what it meant to be the sole linux admin,
+          responsible for over 500 servers distributed across the nation. I was
+          also responsible for supporting the users that connected to these servers,
+          any corporate Linux server, and the applications running on top of them.
+          supporting the applications hosted on each. This experience encouraged
+          me to adopt configuration management (automation) early on in my career.
 
-          This automation was not able to be easily tested at work due to lack
-          of any equivalent test environment, which prompted me to repurpose a
-          desktop at home and begin the pursuit of a full-fledged network that
-          included every best practice that I could research. This gave me an
-          amazing opportunity to break down work problems, learn about the
-          underlying technology, and investigate long enough to determine a root
-          cause and provide a permanent solution to recurring issues.
 
-          When not focused on work activities, I am often spending time contributing
-          to [open source projects](/#opensource), with a focus on bug fixes and
-          quality-of-life improvements.
+          Due to the absence of a suitable test environment at work, I repurposed
+          a desktop at home to create a comprehensive network that adhered to best
+          practices I could discover. This allowed me to break down work-related
+          problems, delve into the underlying technology, and pursue thorough
+          investigations to identify root causes and implement lasting solutions
+          for recurring issues.
+
+          Outside of work, I contribute to open source projects, primarily focusing
+          on bug fixes and enhancements aimed at improving quality of life.
 
           <h5><a href="/self/resume.pdf">
           <img src="/misc/pdf.svg" alt="PDF" width="30px">&nbsp; My Resume</a></h5>

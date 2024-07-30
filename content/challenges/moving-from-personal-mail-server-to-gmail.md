@@ -6,9 +6,10 @@ tag: email
 ---
 
 I was hosting my own email server for about a year. I enjoyed the fact
-that I had full and complete control over the entire mail server. I
+that I had full and complete control over the entire mail server and
 enjoyed being able to fine tune everything to fit my needs exactly. I
 was doing this for about 1.5 years.
+<!--more-->
 
 Unfortunately, there were a few things I couldn't control that really
 killed the fun of running my own email server. First of all, dealing

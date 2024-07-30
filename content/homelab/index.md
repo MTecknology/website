@@ -10,34 +10,37 @@ menu:
 The Origin
 ----------
 
-My home lab was born [from a need](/#about) to quickly learn how to troubleshoot
-challenging issues faced by enterprise networks, primarily because I was the only
-Linux administrator in a company of 24k employees despite being freshly out of
-college. This lab allowed me to replicate simplified versions of issues that were
-observed in the workplace and gave me the flexibility to experiment with more
-significant changes that required much more planning.
+My home lab developed out of [my need](/#about) to quickly learn how to
+troubleshoot complex issues in enterprise networks. As the only Linux
+administrator in a company of 24,000 employees, I faced unique challenges,
+especially as a recent college graduate. This lab allowed me to simulate
+simplified versions of the issues encountered at work and provided the
+flexibility to experiment with larger changes that required careful planning.
 
-This lab paved my way into configuration management systems, so that I could find
-a way to replace an unreliable "tarball-series" deployment strategy used across
-many routinely failing servers.
+This lab allowed me to explore configuration management systems, which helped
+me find a more reliable replacement for the “tarball-series” deployment
+strategy that was in use.
 
 Network Growth
 --------------
 
-As time went on, my home lab grew to include those more "critical core services"
-that are often vital to enterprise operations. These services were implemented
-with both physical and virtual redundancy, using every best practice I could
-justify deploying. At one point, I even had three ISPs and a pair of wireless
-access points.
+As time went on, my home lab expanded to include essential services crucial
+for enterprise operations. I implemented both physical and virtual redundancy,
+adhering to best practices wherever possible. At one point, I was managing
+connections from three ISPs, alongside a couple of wireless access points.
 
 **Network Diagram**:
 
 ![Network Diagram](/homelab/network.webp)
 
+My ultimate goal has been a robust and secure hybrid cloud environment, fully automated for deployment and maintenance. I developed the capability to deploy new clustered services, both locally and remotely, simply by defining devices in an inventory management system.
+
+
+
 My ultimate goal became a robust and secure hybrid cload that was deployed and
 maintained entirely from automation. I was able to deploy brand new clustered
 services locally or remotely just by defining devices in inventory management,
-and I made all changes using version control, and reviewed logs to verify success.
+and then make any modifications using version control.
 
 **Netbox Inventory**:
 
@@ -47,7 +50,13 @@ and I made all changes using version control, and reviewed logs to verify succes
 The journey of learning included:
 
 - Out-of-Band network management using Raspberry Pi and cellular modem
-- To Do ...
+- Automated deployment and configuration of physical, virtual, andcloud resources
+- Encrypted off-site backups using a variety of cost-saving measures
+- Exploring how malware behaves in various simulated environments
+- VLAN and subnet management using different routing solutions
+- Every best practice I could find, including a subnet with every silly option applied
+- Cost analysis to determine exact break-even points between self-hosted, VPS, and cloud
+- Modified UPS that was able to supply four days of run time on batter power
 
 Some Photos
 -----------

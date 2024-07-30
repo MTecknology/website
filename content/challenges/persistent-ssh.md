@@ -7,11 +7,11 @@ tag: ssh
 
 Recently I've had issues with dropping network connections or wanting to
 connect and keep working on the same thing from other systems. Most of
-you probably already know the answer (screen/tmux).
+you probably already know the answer (screen/tmux). This sounds easy
+enuogh, but it's not very automated.<!--more-->
 
-Sounds easy enough. My issue is that I'm incredibly lazy. I don't want
-to SSH into the system AND start screen AND detach AND reattach. That's
-just asking way too much of someone like me.
+I don't want to SSH into the system AND start screen AND detach AND
+reattach. That's just asking way too much of someone like me.
 
 Here's the very simple solution. In my ``~/.bashrc`` file I appended this
 section of code.

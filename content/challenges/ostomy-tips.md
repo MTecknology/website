@@ -5,11 +5,10 @@ date: 2019-03-17T00:00:00
 tag: IRL
 ---
 
-My experience with colorectal (adenocarcinoma, T3aN0M0 [Stage 2]) cancer officially
-began on the 9th of October in 2017. After 8 rounds of chemo and 27 rounds of
-radiation, I arrived at surgery. Unfortunately, I came out on the other side of
-surgery with a permanent colostomy. Learning to live with an ostomy hasn't been a
-breeze, but hopefully sharing what I learned can help someone with this transition.
+My experience with colorectal cancer officially began in 2017. After 8 rounds
+of chemo and 27 rounds of radiation, I came out on the other side of surgery
+with a permanent colostomy. Learning to live with an ostomy was a bit of a
+challenge, so I hope someone else can find these tips helpful.
 <!--more-->
 
 The Initial Shock

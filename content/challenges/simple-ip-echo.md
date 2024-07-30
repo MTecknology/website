@@ -5,14 +5,13 @@ date: 2010-10-31T09:18:00
 tag: nginx
 ---
 
-OK! We all know Nginx is amazing and extremely light. I've been having
-the need lately to quickly get the IP address of a location. There's
-"whatismyip.com" but that's an ugly bloat.<!--more--> Look at how much you download
-to just get a small string of numbers.
+Recent projects have given me a need to be able to quickly and easily determine
+a public IP address. Although services like whatismyip exist, they are full of
+bloat and advertisements.<!--more-->
 
-To get around this a lot of people run their own website that displays
-the IP address. This is usually done by passing the connection from
-Apache to HTTP which has code similar to the following in it.
+To streamline this process, many people choose to host their own website that
+displays their IP address. This is often achieved by routing the connection
+through Apache to PH, using code that resembles the following:
 
 ```
 <?php
@@ -20,7 +19,7 @@ print(getenv(REMOTE_ADDR))
 ;?>
 ```
 
-That seems simple and light enough. Why add PHP into the mix though.
+That seems simple and light enough ... but why add PHP into the mix at all?
 It's very much so an added bloat. Apache is enough of a bloat without
 adding the extra bloat of PHP.
 

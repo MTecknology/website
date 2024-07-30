@@ -5,15 +5,9 @@ date: 2009-10-31T23:02:00
 tag: bazaar, vcs
 ---
 
-By now we've all heard about the Bazaar (bzr) version control system. If
-you're a coder then you're well aware of what a version control system
-is and why it's helpful.
-
-<!--more-->
-
-Rather than discuss how incredible bazaar is, I'd like to explain how to
-set up a production level deployment for a bzr server. If you're curious
-what makes bazaar great, just try it out. You can use
+Rather than discuss how great bazaar is, I'd like to explain how to quickly
+set up a production level deployment for a bzr server.<!--more--> If you're
+curious what makes bazaar great, just try it out. You can use
 https://staging.launchpad.net/ to create branches for playing around.
 
 To deploy a low level and basic setup you only need to run this command

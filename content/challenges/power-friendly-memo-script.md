@@ -5,15 +5,11 @@ date: 2008-12-30T19:08:00
 tag: kiss
 ---
 
-I've been bragging recently about how many obstacles I've overcome with
-Linux as a whole. There's many things I've been doing to Ubuntu to make
-it extremely fast and flexible for my uses. I also happen to be one of
-those people that forgets absolutely everything.
-
 I very frequently decide I'm going to do something later that isn't
 something big and forget about it, or forget about a homework
 assignment. I've tried using those note taking and memo apps. I found
 that tomboy was pretty good. Unfortunately, not good enough.
+<!--more-->
 
 I decided to go through and figure out a very simple way to take memos
 or quick little notes that wouldn't eat up any extra memory or waste any

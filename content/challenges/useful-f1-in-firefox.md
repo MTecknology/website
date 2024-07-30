@@ -8,10 +8,8 @@ tag: tips
 Do you ever use F1 to bring up help pages in Firefox? Do you find this
 feature useful? Do you like rhetorical questions?
 
-<!--more-->
-
-Personally, I've never found this F1 function useful or helpful. The
-times I wanted some help from it I wasn't able to get the help I needed.
+Personally, I've never found this F1 function useful or helpful.<!--more-->
+The times I wanted some help from it I wasn't able to get the help I needed.
 So then this becomes a pointless feature. I bumped it some so I kinda of
 got irritated.
 

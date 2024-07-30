@@ -5,10 +5,10 @@ date: 2009-12-05T21:12:00
 tag: ssh
 ---
 
-I manage many servers as well as pop into a few other systems now and
-then. I was getting somewhat irritated with typing out everything. A
-search on Google showed many results. It seemed the most common command
-to do this was this.
+I work with many randomly-named servers and pop into a few open source hosts
+with some frequency. I was getting somewhat irritated with typing out so many
+hostnames<!--more-->, but a search on Google showed many results. It seemed the most common
+command to do this was this.
 
 ```sh
 complete -W "$(echo `cat ~/.ssh/known_hosts | cut -f 1 -d ' ' | sed -e s/,.*//g | uniq | grep -v "\["`;)" ssh

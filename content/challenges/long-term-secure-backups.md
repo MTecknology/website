@@ -9,7 +9,7 @@ Not that long ago, I managed to delete all of my physical HV hosts, backup
 server, all external backups, and a bit more. The first question that most
 people would ask would probably be how that's even possible. That may become
 a post by itself; it probably won't, though. What really matters is how I can
-keep this from ever happening again?
+keep this from ever happening again?<!--more-->
 
 I sat down for some time to come up with some requirements, some ideas, and
 eventually rolled out a backup solution that I feel confident with.

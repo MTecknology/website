@@ -7,8 +7,8 @@ tag: kiss, overkill
 
 In my quest for a fast boot time into a fully functional system
 that is very light weight, I tried out Gentoo. After using Gentoo I
-discovered that they're not that "ricer" community everyone claims they
-are. In many way's they're the exact opposite. Sure some of them fall
+discovered that they're not the "ricer" community everyone claims they
+are. In many way's they're the exact opposite.<!--more--> Sure some of them fall
 into the ricer category but they're not very common.
 
 One of the biggest aspects of Gentoo is that you compile your own

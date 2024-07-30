@@ -5,12 +5,9 @@ date: 2013-08-06T00:00:00
 tag: bottle, nginx, uwsgi, python
 ---
 
-Nginx is pretty sweet, that's a rather obvious statement from me. There are
-already many nginx forks and contributions back to the original. I also happen
-to have quite a spot in my heart for [Bottle](http://bottlepy.org/docs/dev/). In
-my eyes, it's a framework that pretty much lets you forget you're working with
-the web. You get to write your application as if the web didn't exist and then
-tack on the templating.
+[Bottle.py](http://bottlepy.org/docs/dev/) is a magnificent that pretty much
+lets you forget you're working with the web. Coupled with Nginx, it becomes
+very easy to design custom web services.<!--more-->
 
 Maybe it's not *that* easy, but it's worth checking out! I'm going to take you
 through the process of getting this amazing stack going. Let's get started!

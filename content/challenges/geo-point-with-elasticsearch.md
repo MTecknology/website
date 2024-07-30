@@ -9,6 +9,7 @@ I was recently brought into an interesting project that deals with analyzing
 some exciting data. I have my preferred search solutions and hate java, but
 I had to bite my tongue and acknowledge an ELK stack is the best tool for this
 particular job.
+<!--more-->
 
 ELK Stack
 ---------

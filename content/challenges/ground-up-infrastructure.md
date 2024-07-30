@@ -7,10 +7,9 @@ tag: infrastructure, debian, networking, virtualization
 
 I've been working with a company that recently lost a very large amount of their
 infrastructure. Not only were servers lost, but also backups, application data,
-and much more. Unfortunately, I'm not at liberty to share too many details, but
-I am able to say that it was the situation your worst nightmares are made of.
+and much more.
 
-Very recently, I also lost all of my personal infrastructure. I lost all virtual
+Very recently, I also lost all of my personal infrastructure.<!--more--> I lost all virtual
 machines, VM hosts, networking configuration, router configs, firewall rules,
 backups, the other backups, the third set of backups, AP configs, etc. It was
 rather brutal. The only thing I got to keep was my laptop and anything I've put
