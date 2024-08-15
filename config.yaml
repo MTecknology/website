@@ -172,13 +172,13 @@ params:
         content: My own enterprise-style infrastructure, designed to learn best practices and investigate solutions to real issues
         url: /home-lab
 
-      - title: D42-Cli
-        content: Provides a flexible command line interface for Device42, using a module approach similar to SaltStack execution modules
-        url: https://github.com/MTecknology/d42-cli
+      - title: CIS Benchmark Tests
+        content: Provides automated testing and compliance reports covering benchmarks from Center for Internet Security
+        url: https://github.com/MTecknology/teckhost/tree/master/test/compliance
 
-      - title: Script Helpers
-        content: Library for POSIX-compliant functions designed to safely support legacy servers that cannot tolerate down time
-        url: https://github.com/MTecknology/script-helpers
+      - title: Audio Pattern Ranger
+        content: Enviromental monitor that uses machine learning to train a model from local disturbances and then report occurrences
+        url: https://audio-pattern-ranger.github.io/apr/usage/overview.html
 
       - title: Static Swagger-UI
         content: Builds a read-only web page similar to Swagger-UI providing instant response time, using 1k fewer javascript libraries
@@ -188,9 +188,9 @@ params:
         content: Adds lightning-fast searching to otherwise-static pelican websites using a server running sphinxsearch and bottle
         url: https://github.com/MTecknology/pelican-search
 
-      - title: Debian SSO
-        content: Plugin for LemonLDAP-NG (SSO) that added features needed to support specific needs of the Debian project
-        url: https://github.com/MTecknology/debian-sso
+      - title: Script Helpers
+        content: Library for POSIX-compliant functions designed to safely support legacy servers that cannot tolerate down time
+        url: https://github.com/MTecknology/script-helpers
 
       - title: TDC
         content: Tiny and lightweight clock designed to fit docks and system trays of minimalist window managers like openbox
@@ -204,18 +204,17 @@ params:
         content: Comprehensive template for corporations deploying SaltStack with proven record supporting globally distributed teams
         url: https://github.com/MTecknology/homedata/tree/master/network/_legacy/salt/corporate-formula
 
-      - title: CIS Benchmark Tests
-        content: Implements CIS Level-2 benchmarks as pytest units
-        content: Provides automated testing and compliance reports covering benchmarks from Center for Internet Security
-        url: https://github.com/MTecknology/teckhost/tree/master/test/compliance
+      - title: D42-Cli
+        content: Provides a flexible command line interface for Device42, using a modular approach similar to SaltStack execution modules
+        url: https://github.com/MTecknology/d42-cli
 
       - title: DFSG Review
         content: An application and framework that supports collaborative review of software packages within the debian archive
         url: https://github.com/MTecknology/dfsg-review
 
-      - title: 100-Bytes
-        content: This was my attempt to build the best solution to a fun brain teaser presented to a friend during their interview
-        url: https://github.com/MTecknology/homedata/tree/master/projects/.archive/100bytes
+      - title: Debian SSO
+        content: Plugin for LemonLDAP-NG (SSO) that added features needed to support specific needs of the Debian project
+        url: https://github.com/MTecknology/debian-sso
 
 markup:
   goldmark:
