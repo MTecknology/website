@@ -170,7 +170,7 @@ params:
 
       - title: Home Lab
         content: My own enterprise-style infrastructure, designed to learn best practices and investigate solutions to real issues
-        url: /home-lab
+        url: /homelab
 
       - title: CIS Benchmark Tests
         content: Provides automated testing and compliance reports covering benchmarks from Center for Internet Security
