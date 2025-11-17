@@ -176,9 +176,9 @@ params:
         content: Provides automated testing and compliance reports covering benchmarks from Center for Internet Security
         url: https://github.com/MTecknology/teckhost/tree/master/test/compliance
 
-      - title: Audio Pattern Ranger
-        content: Enviromental monitor that uses machine learning to train a model from local disturbances and then report occurrences
-        url: https://audio-pattern-ranger.github.io/apr/usage/overview.html
+      - title: Disturbance Tracker
+        content: Enviromental monitor that uses trains a machine learning model to detect concerning noises (without cloud resources)
+        url: https://mtecknology.github.io/disturbance-tracker
 
       - title: Static Swagger-UI
         content: Builds a read-only web page similar to Swagger-UI providing instant response time, using 1k fewer javascript libraries
