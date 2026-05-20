@@ -8,6 +8,11 @@ disablePathToLower: true
 pygmentsCodeFences: true
 pygmentsStyle: xcode
 
+menus:
+  main:
+    - name: Home Data
+      url: https://mtecknology.github.io/homedata
+
 params:
   title: MTeck
   description: DevOps / SRE / Linux Engineer
@@ -21,13 +26,12 @@ params:
   navbar:
     brandLogo: /self/mteck.webp
     stickyNavBar:
-      enable : true
+      enable: true
     searchPlaceholder: Search ...
     disableSearch: true
 
   animate: false
   theme:
-    disableThemeToggle: true
     defaultTheme: light
   listPages:
     disableFeaturedImage: false
@@ -177,8 +181,8 @@ params:
         url: https://github.com/MTecknology/teckhost/tree/master/test/compliance
 
       - title: Disturbance Tracker
-        content: Enviromental monitor that uses trains a machine learning model to detect concerning noises (without cloud resources)
-        url: https://mtecknology.github.io/disturbance-tracker
+        content: Enviromental monitor that trains a machine learning model to detect concerning noises (without cloud resources)
+        url: https://rtaas.github.io/disturbance-tracker
 
       - title: Static Swagger-UI
         content: Builds a read-only web page similar to Swagger-UI providing instant response time, using 1k fewer javascript libraries
