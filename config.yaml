@@ -37,20 +37,20 @@ params:
     disableFeaturedImage: false
 
   color:
-    #textColor: "#343a40"
+    textColor: "#343a40"
     secondaryTextColor: "#464d53"
     backgroundColor: "#f3f4f4"
-    #secondaryBackgroundColor: "#64ffda1a"
+    secondaryBackgroundColor: "#64ffda1a"
     secondaryBackgroundColor: "#508402"
     primaryColor: "#0d6180"
-    #secondaryColor: "#f8f9fa"
-    #darkmode:
-    #  textColor: "#e4e6eb"
-    #  secondaryTextColor: "#b0b3b8"
-    #  backgroundColor: "#18191a"
-    #  secondaryBackgroundColor: "#212529"
-    #  primaryColor: "#ffffff"
-    #  secondaryColor: "#212529"
+    secondaryColor: "#f8f9fa"
+    darkmode:
+      textColor: "#e4e6eb"
+      secondaryTextColor: "#b0b3b8"
+      backgroundColor: "#18191a"
+      secondaryBackgroundColor: "#22e1e1"
+      primaryColor: "#ffffff"
+      secondaryColor: "#212529"
 
   ##
   # Front Page Content
