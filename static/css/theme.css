@@ -1,11 +1,14 @@
 /**
  * Original File Content
  **/
-
 /* light mode */
 .light > *{
     background-color: var(--background-color) !important;
     color: var(--text-color) !important;
+}
+
+.light > #footer-socialNetworks-github-svg-path{
+    fill: none;
 }
 
 /* dark mode */
@@ -14,8 +17,13 @@
     --secondary-background-color: var(--secondary-background-color-dark) !important;
     --text-color: var(--text-color-dark) !important;
     --text-secondary-color: var(--text-secondary-color-dark) !important;
+    --text-link-color: var(--text-link-color-dark) !important;
     --primary-color: var(--primary-color-dark);
     --secondary-color: var(--secondary-color-dark);
+}
+
+.dark #footer-socialNetworks-github-svg-path{
+    fill: #FFFFFF;
 }
 
 .text-secondary {
@@ -43,11 +51,6 @@ body.dark #moon {
 
 body:not(.dark) #sun {
     display: none;
-}
-
-body *::selection {
-    color: var(--text-color) !important;
-    background-color: var(--primary-color) !important;
 }
 
 /**
